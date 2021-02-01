@@ -1,6 +1,7 @@
-/* The following is an example to find the ident token which only happens outside
-   of character context. 
-   - Note that the cxref requires to properly handle string and comment contexts */
+/* The following is an example lex program which reports the number of line
+   comments in the input program which being redirected from console keyboard.
+   */
+
 %{
 #include <cstdio>
 #include <cctype>
@@ -9,7 +10,8 @@
 %}
 
 %%
-.     { ; }
+\n    { ECHO; }
+.     { ECHO; }
 %%
 /*******************/
 /* c/c++ functions */

@@ -1,6 +1,7 @@
-/* The following is an example to find the ident token which only happens outside
-   of character context. 
-   - Note that the cxref requires to properly handle string and comment contexts */
+/* The following is an example lex program which finds the word "hell" from a
+   redirected input file and output all the input bytes to the console after
+   replacing every instance of "hell" to "heaven". */
+
 %{
 #include <cstdio>
 #include <cctype>
