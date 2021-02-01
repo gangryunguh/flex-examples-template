@@ -1,6 +1,6 @@
 /* The following is an example lex program which reports the number of line
    comments in the input program which being redirected from console keyboard.
-   */
+ */
 
 %{
 #include <cstdio>
