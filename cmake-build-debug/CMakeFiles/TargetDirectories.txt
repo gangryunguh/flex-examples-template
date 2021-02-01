@@ -1,4 +1,0 @@
-/Users/uh/CLionProjects/cop4020/flex-examples-template/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/uh/CLionProjects/cop4020/flex-examples-template/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/uh/CLionProjects/cop4020/flex-examples-template/cmake-build-debug/CMakeFiles/replace.dir
-/Users/uh/CLionProjects/cop4020/flex-examples-template/cmake-build-debug/CMakeFiles/linecomment.dir
