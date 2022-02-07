@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.5)
 project(flex_exercise)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS "-fpermissive -g -O0 -DDEBUG")
 set(CMAKE_PREFIX_PATH "/usr/local")
 set(CMAKE_BUILD_TYPE Debug)
